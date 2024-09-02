@@ -1,0 +1,124 @@
+@media all and (max-width: 800px) {
+
+    .container {
+        width: 100%;
+
+        margin: 0;
+    }
+
+    .menu-comp ul {
+        flex-direction: column;
+
+    }
+
+    .menu-comp ul li {
+        padding: 7px;
+        color: white;
+
+
+    }
+
+    .menu-comp {
+        height: auto;
+
+    }
+
+    .logo {
+
+        width: 100%;
+        height: 40px;
+
+        
+        color: white;
+    }
+
+    .contakt {
+        width:30%;
+        font-size: 15px;
+    }
+
+    .slider-head {
+        display: none;
+    }
+
+    #page {
+        flex-direction: column;
+    }
+
+    .maps {
+        flex-direction: column;
+    }
+
+    .footer {
+        margin: 0;
+    }
+
+    .about-1,
+    .about-2 {
+        flex-direction: column;
+    }
+
+    .abu-1 {
+        width: 80%;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .karta iframe{
+        width: 700px;
+    }
+    /* myahki */
+    #page{
+        flex-direction: column;
+    }
+    #page1{
+        flex-direction: column;
+    }
+    .center-text{
+        width: auto;
+    }
+    .form-image img{
+        width: 150px;
+        margin: 0;
+    }
+    .logo-rasm img {
+        width: 100px;
+    }
+    .myahki-page {
+        border-radius: 5px;
+    width: 100%;
+        text-align: start;
+        background-color: #ffffff;
+    }
+    .myahki-page img{
+        width: 100%;
+        height: auto;
+        margin: 0%;
+    }
+}
+
+@media all and (max-width: 536px) {
+    .karta iframe{
+        width: auto;
+    }
+    .contakt {
+        width: 30%;
+        font-size: 10px;
+    }
+    #page1{
+        flex-direction: column;
+    }
+    .myahki-page {
+        border-radius: 5px;
+    width: 100%;
+        text-align: start;
+        background-color: #ffffff;
+    }
+    .myahki-page img{
+        width: 100%;
+        height: auto;
+        margin: 0%;
+    }
+}
